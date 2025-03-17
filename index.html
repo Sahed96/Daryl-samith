@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daryl Smith</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="public/profileImg.webp">
   <link href="./Styles/style.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -13,22 +14,23 @@
 </head>
 
 <body class="bg-[#171B1A]">
-  <div class="flex justify-center max-w-screen mx-auto">
+  <div class="flex justify-center px-4 lg:px-0 max-w-screen mx-auto">
     <div class="w-full max-w-full relative">
 
       <!-- Main content container -->
-      <div class="w-[1320px] mx-auto bg-[#161a1a] shadow-[0px_10px_25px_#ffffff17] relative">
+      <div class="w-full lg:w-[82.5rem] mx-auto bg-[#161a1a] shadow-[0px_10px_25px_#ffffff17] relative">
         <!-- Header -->
-        <header class="h-[106px] flex items-center border-b border-[#ffffff33]">
-          <div data-aos="fade-right" class="flex flex-col ml-[94px]">
-            <img data-aos="zoom-in-down" data-aos-duration="1500" class="h-[30px]" alt="Daryl smith" src="public/daryl-smith.svg">
-            <div class="typewriter font-normal text-[#c2c2c2] mt-1 text-lg leading-[18px]">
+        <header class="h-[106px] flex justify-center items-center border-b border-[#ffffff33] px-4 lg:px-0">
+          <div data-aos="fade-right" class="flex flex-col ml-0 lg:ml-[5.8rem]">
+            <img data-aos="zoom-in-down" data-aos-duration="1500" class="h-[30px]" alt="Daryl smith"
+              src="public/daryl-smith.svg">
+            <div class="lg:typewriter font-light hidden lg:block lg:font-normal text-[#c2c2c2] mt-1 text-sm lg:text-lg leading-[18px]">
               UI/UX designer
             </div>
           </div>
 
-          <div class="flex items-center ml-[140px]">
-            <hr class="w-[1px] ml-14 h-[106px] bg-[#353535]">
+          <div class="hidden lg:flex items-center ml-[140px]">
+            <hr class="w-[1px] ml-14 h-[6.6rem] bg-[#353535]">
             <div
               class="w-10 h-10 ml-10 rounded-md bg-gradient-to-b from-[#f5bd4d] to-[#f89222] flex items-center justify-center">
               <i data-lucide="home" class="w-6 h-6 text-white"></i>
@@ -36,258 +38,269 @@
             <span data-aos="fade-left" class="ml-4 text-2xl leading-6 font-bold text-white">Home</span>
           </div>
 
-          <button class="ml-auto mr-[20px] px-6 py-3 rounded-[50px] hover:opacity-90 transition-opacity">
+          <button class="ml-auto  mr-1 lg:mr-[20px] px-1 lg:px-6 py-1 lg:py-3 rounded-[50px] hover:opacity-90 transition-opacity">
             <span
-              class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] border-2 border-[#f5bd4d] p-4 rounded-full bg-clip-text text-transparent font-bold text-base">
+              class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] border-2 border-[#f5bd4d] p-4 rounded-full bg-clip-text text-transparent font-light lg:font-bold text-xs lg:text-base">
               Talk To Me
             </span>
           </button>
         </header>
 
-        <!-- Side profile -->
-        <div class="absolute w-[368px] bg-[#000000] h-[531px] top-[106px] left-[92px]">
-          <img data-aos="zoom-in" data-aos-duration="1500" class="absolute top-14 h-full  bg-object-cover" alt="Profile" src="public/profileImg.png">
+        <div>
+          <!-- Side profile -->
+          <div class="absolute w-full lg:w-[23rem] bg-[#000000] h-[531px] top-[106px] left-0 lg:left-[92px]">
+            <img loading="lazy" data-aos="zoom-in" data-aos-duration="1500"
+              class="absolute top-14 h-full bg-object-cover" alt="Profile" src="public/profileImg.webp">
 
-          <!-- Social media links -->
-          <div
-            class="absolute w-full top-[531px] h-[60px] bottom-0 left-0 bg-black shadow-[0px_-10px_25px_#ffffff17] flex items-center justify-center">
-            <div class="flex space-x-4">
-              <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
-                <img class="w-4 h-4" alt="Facebook" src="public/fa6-brands-facebook-f.svg">
-              </a>
-              <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
-                <img class="w-4 h-4" alt="LinkedIn" src="public/cib-linkedin-in.svg">
-              </a>
-              <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
-                <img class="w-4 h-4" alt="Pinterest" src="public/pinterest-p-1.svg">
-              </a>
-              <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
-                <img class="w-4 h-4" alt="Instagram" src="public/akar-icons-instagram-fill.svg">
-              </a>
-              <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
-                <img class="w-4 h-4" alt="Twitter" src="public/akar-icons-twitter-fill.svg">
-              </a>
+            <!-- Social media links -->
+            <div
+              class="absolute w-full top-[531px] h-[60px] bottom-0 left-0 bg-black shadow-[0px_-10px_25px_#ffffff17] flex items-center justify-center">
+              <div class="flex space-x-4">
+                <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
+                  <img class="w-4 h-4" alt="Facebook" src="public/fa6-brands-facebook-f.svg">
+                </a>
+                <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
+                  <img class="w-4 h-4" alt="LinkedIn" src="public/cib-linkedin-in.svg">
+                </a>
+                <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
+                  <img class="w-4 h-4" alt="Pinterest" src="public/pinterest-p-1.svg">
+                </a>
+                <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
+                  <img class="w-4 h-4" alt="Instagram" src="public/akar-icons-instagram-fill.svg">
+                </a>
+                <a href="#" class="w-8 h-8 bg-[#121414] rounded-2xl flex items-center justify-center">
+                  <img class="w-4 h-4" alt="Twitter" src="public/akar-icons-twitter-fill.svg">
+                </a>
+              </div>
             </div>
           </div>
+
+          <!-- Side navigation -->
+          <nav data-aos="fade-right" data-aos-duration="1500" class="absolute w-[92px] hidden h-[433px] top-[233px] left-0 lg:flex flex-col items-center">
+            <img class="absolute w-[92px] h-[450px] top-[40px] left-0" alt="Navigation background"
+              src="public/rectangle-1099-1.svg">
+
+            <div class="relative z-10 flex flex-col space-y-[50px] mt-0">
+              <a href="#home" class="w-8 h-8 flex items-center justify-center">
+                <img src="public/home.svg" alt="Home" class="w-8 h-8">
+              </a>
+              <a href="#about" class="w-8 h-8 flex items-center justify-center">
+                <img src="public/about.png" alt="About" class="w-[22px] h-[26px]">
+              </a>
+              <a href="#portfolio" class="w-8 h-8 flex items-center justify-center">
+                <img src="public/portfolio.svg" alt="Portfolio" class="w-8 h-8">
+              </a>
+              <a href="#blog" class="w-8 h-8 flex items-center justify-center">
+                <img src="public/blog.svg" alt="Blog" class="w-8 h-8">
+              </a>
+              <a href="#contact" class="w-8 h-8 flex items-center justify-center">
+                <img src="public/blog-1.svg" alt="Contact" class="w-8 h-8">
+              </a>
+            </div>
+          </nav>
+
+          <!-- Language selector -->
+          <div data-aos="fade-left" data-aos-duration="1500" class="absolute hidden lg:block right-0 h-[433px]">
+            <img class="absolute w-[92px] h-[450px] top-[140px] right-0" alt="Language selector"
+              src="public/rectangle-1098.svg">
+            <div class="relative z-10 left-[200px]">
+              <div class="relative top-[490px] left-[100px] flex flex-col space-y-4">
+                <button class="w-8 h-8 bg-[#343434] rounded-2xl flex items-center justify-center">
+                  <span class="font-bold text-white text-xs">Fr</span>
+                </button>
+                <button
+                  class="w-8 h-8 rounded-2xl bg-gradient-to-b from-[#f5bd4d] to-[#f89222] flex items-center justify-center">
+                  <span class="font-bold text-white text-xs">En</span>
+                </button>
+              </div>
+
+              <!-- Copyright text -->
+              <div class="relative top-[200px] right-16 rotate-90 font-normal text-[#a4a4a4] text-sm">
+                © design by themefisher developed by gethugothemes
+              </div>
+            </div>
+          </div>
+
+          <!-- Introduction section -->
+          <section data-aos="fade-up" id="home"
+            class="absolute px-6 lg:px-0 w-full lg:w-[619px] h-[464px] top-[750px] lg:top-[146px] lg:left-[508px]">
+            <span
+              class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-base">
+              INTRODUCTION
+            </span>
+
+            <h1 data-aos="fade-up" class="mt-[31px] font-bold text-white text-3xl lg:text-5xl leading-[62.4px]">
+              I'm a Creative Developer &<br>
+              UI/UX Design Expert
+            </h1>
+
+            <div class="mt-[40px] font-bold text-white text-base leading-[22.4px]">
+              24 years&nbsp;&nbsp; /&nbsp;&nbsp; Robert Smith&nbsp;&nbsp; /&nbsp;&nbsp; UK London
+            </div>
+
+            <p data-aos="fade-up" class="mt-[18px] font-medium text-[#c5c5c5] text-base leading-normal">
+              Prolific, full stack web developer with a passion for metrics and beating former<br>
+              "best-yets." Prototyped 25 new product features per year for Flexor, Inc.<br>
+              Decreased rework by 22% and costs by 15%. Consistently receive high<br>
+              user experience scores for all web development projects, including a<br>
+              55% increase for Flexor, Inc. Passionate about building world class web<br>
+              applications. One of my sites received a 2020 Webby for Best Navigation and Structure.
+            </p>
+
+            <button 
+              class="mt-[40px] px-6 py-3 rounded-[50px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222] flex items-center gap-2.5 hover:opacity-90 transition-opacity">
+              <span class="font-bold text-white text-base">Download CV</span>
+              <i data-lucide="download" class="w-6 h-6 text-white"></i>
+            </button>
+          </section>
         </div>
-
-        <!-- Side navigation -->
-        <nav class="absolute w-[92px] h-[433px] top-[233px] left-0 flex flex-col items-center">
-          <img class="absolute w-[92px] h-[450px] top-[40px] left-0" alt="Navigation background"
-            src="public/rectangle-1099-1.svg">
-
-          <div class="relative z-10 flex flex-col space-y-[50px] mt-0">
-            <a href="#home" class="w-8 h-8 flex items-center justify-center">
-              <img src="public/home.svg" alt="Home" class="w-8 h-8">
-            </a>
-            <a href="#about" class="w-8 h-8 flex items-center justify-center">
-              <img src="public/about.png" alt="About" class="w-[22px] h-[26px]">
-            </a>
-            <a href="#portfolio" class="w-8 h-8 flex items-center justify-center">
-              <img src="public/portfolio.svg" alt="Portfolio" class="w-8 h-8">
-            </a>
-            <a href="#blog" class="w-8 h-8 flex items-center justify-center">
-              <img src="public/blog.svg" alt="Blog" class="w-8 h-8">
-            </a>
-            <a href="#contact" class="w-8 h-8 flex items-center justify-center">
-              <img src="public/blog-1.svg" alt="Contact" class="w-8 h-8">
-            </a>
-          </div>
-        </nav>
-
-        <!-- Language selector -->
-        <div class="absolute right-0 h-[433px] ">
-          <img class="absolute w-[92px] h-[450px] top-[140px] right-0" alt="Language selector"
-            src="public/rectangle-1098.svg">
-          <div class="relative z-10 left-[200px]">
-            <div class="relative top-[490px] left-[100px] flex flex-col space-y-4">
-              <button class="w-8 h-8 bg-[#343434] rounded-2xl flex items-center justify-center">
-                <span class="font-bold text-white text-xs">Fr</span>
-              </button>
-              <button
-                class="w-8 h-8 rounded-2xl bg-gradient-to-b from-[#f5bd4d] to-[#f89222] flex items-center justify-center">
-                <span class="font-bold text-white text-xs">En</span>
-              </button>
-            </div>
-
-            <!-- Copyright text -->
-            <div class="relative top-[200px] right-16 rotate-90 font-normal text-[#a4a4a4] text-sm">
-              © design by themefisher developed by gethugothemes
-            </div>
-          </div>
-        </div>
-
-        <!-- Introduction section -->
-        <section id="home" class="absolute w-[619px] h-[464px] top-[146px] left-[508px]">
-          <span class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-base">
-            INTRODUCTION
-          </span>
-
-          <h1 class="mt-[31px] font-bold text-white text-5xl leading-[62.4px]">
-            I'm a Creative Developer &<br>
-            UI/UX Design Expert
-          </h1>
-
-          <div class="mt-[40px] font-bold text-white text-base leading-[22.4px]">
-            24 years&nbsp;&nbsp; /&nbsp;&nbsp; Robert Smith&nbsp;&nbsp; /&nbsp;&nbsp; UK London
-          </div>
-
-          <p class="mt-[18px] font-medium text-[#c5c5c5] text-base leading-normal">
-            Prolific, full stack web developer with a passion for metrics and beating former<br>
-            "best-yets." Prototyped 25 new product features per year for Flexor, Inc.<br>
-            Decreased rework by 22% and costs by 15%. Consistently receive high<br>
-            user experience scores for all web development projects, including a<br>
-            55% increase for Flexor, Inc. Passionate about building world class web<br>
-            applications. One of my sites received a 2020 Webby for Best Navigation and Structure.
-          </p>
-
-          <button
-            class="mt-[40px] px-6 py-3 rounded-[50px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222] flex items-center gap-2.5 hover:opacity-90 transition-opacity">
-            <span class="font-bold text-white text-base">Download CV</span>
-            <i data-lucide="download" class="w-6 h-6 text-white"></i>
-          </button>
-        </section>
 
         <!-- Resume section -->
-        <section id="resume" class="absolute top-[729px] left-[508px]">
-          <h2 class="font-bold text-white text-5xl leading-[48px]">Resume</h2>
+        <div class="mt-10">
+          <section id="resume" class="absolute top-[1550px] lg:top-[729px] left-4 lg:left-[508px]">
+            <h2 class="font-bold text-white text-3xl lg:text-5xl leading-[48px]">Resume</h2>
 
-          <!-- Education -->
-          <div class="mt-[89px] relative">
-            <div class="flex items-center">
-              <img data-aos="fade-right" data-aos-duration="1000" class="w-8 h-8" alt="Education icon" src="public/frame-8630.svg">
-              <h3 data-aos="fade-left" data-aos-duration="1000" class="ml-4 font-bold text-white text-2xl leading-6">Education</h3>
-            </div>
-
-            <div class="relative mt-4 ml-0">
-              <div class="absolute w-2 h-[555px] left-[7px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222]"></div>
-
-              <!-- Harvard University -->
-              <div class="relative ml-[39px]">
-                <div
-                  class="absolute w-[23px] h-[23px] -left-[39px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222] rounded-full">
-                </div>
-                <div
-                  class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
-                  <span class="font-bold text-sm leading-[14px] text-white">2016-2020</span>
-                </div>
-                <div data-aos="zoom-in" data-aos-duration="1000"
-                  class="mt-[38px] w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
-                  <div
-                    class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
-                    Harvard University
-                  </div>
-                  <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
-                    B.A. and M.S., Computer Science
-                  </div>
-                  <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
-                  <p class="font-normal text-white text-base leading-[22.4px]">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
-                    laborum maiores mollitia, optio quam quis rerum totam voluptas.
-                  </p>
-                </div>
+            <!-- Education -->
+            <div class="mt-[89px] relative">
+              <div class="flex items-center">
+                <img data-aos="fade-right" data-aos-duration="1000" class="w-8 h-8" alt="Education icon"
+                  src="public/frame-8630.svg">
+                <h3 data-aos="fade-left" data-aos-duration="1000" class="ml-4 font-bold text-white text-2xl leading-6">
+                  Education</h3>
               </div>
 
-              <!-- Helwan University -->
-              <div class="relative ml-[39px] mt-[73px]">
-                <div
-                  class="absolute w-[23px] h-[23px] -left-[39px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222] rounded-full">
+              <div class="relative mt-4 ml-0">
+                <div class="absolute rounded-full w-2 h-[555px] left-[7px] border-2 border-solid border-[#646464]">
                 </div>
-                <div
-                  class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
-                  <span class="font-bold text-sm leading-[14px] text-white">2014-2016</span>
-                </div>
-                <div data-aos="zoom-in" data-aos-duration="1000"
-                  class="mt-[38px] w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
+
+                <!-- Harvard University -->
+                <div class="relative ml-[39px]">
+                  <div class="absolute inset-0 z-10 w-[23px] h-[23px] -left-[39px]">
+                    <img src="public/rectangle-1114.svg" alt="">
+                  </div>
                   <div
-                    class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
-                    Helwan University
+                    class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
+                    <span class="font-bold text-sm leading-[14px] text-white">2016-2020</span>
                   </div>
-                  <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
-                    Bachelor Degree
+                  <div data-aos="zoom-in" data-aos-duration="1000"
+                    class="mt-[38px] w-full lg:w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
+                    <div
+                      class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
+                      Harvard University
+                    </div>
+                    <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
+                      B.A. and M.S., Computer Science
+                    </div>
+                    <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
+                    <p class="font-normal text-white text-base leading-[22.4px]">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
+                      laborum maiores mollitia, optio quam quis rerum totam voluptas.
+                    </p>
                   </div>
-                  <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
-                  <p class="font-normal text-white text-base leading-[22.4px]">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
-                    laborum maiores mollitia, optio quam quis rerum totam voluptas.
-                  </p>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- Work History -->
-          <div class="mt-[80px] relative">
-            <div class="flex items-center">
-              <img class="w-8 h-8" alt="Work history icon" src="public/frame-8632.svg">
-              <h3 class="ml-4 font-bold text-white text-2xl leading-6">Work History</h3>
-            </div>
-
-            <div class="relative mt-4 ml-0">
-              <div class="absolute w-2 h-[555px] left-[7px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222]"></div>
-
-              <!-- UI/UX Design -->
-              <div class="relative ml-[39px]">
-                <div
-                  class="absolute w-[23px] h-[23px] -left-[39px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222] rounded-full">
-                </div>
-                <div
-                  class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
-                  <span class="font-bold text-sm leading-[14px] text-white">2016-2022</span>
-                </div>
-                <div
-                  class="mt-[38px] w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
+                <!-- Helwan University -->
+                <div class="relative ml-[39px] mt-[73px]">
+                  <div class="absolute inset-0 z-10 w-[23px] h-[23px] -left-[39px]">
+                    <img src="public/rectangle-1114.svg" alt="">
+                  </div>
                   <div
-                    class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
-                    UI/UX design
+                    class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
+                    <span class="font-bold text-sm leading-[14px] text-white">2014-2016</span>
                   </div>
-                  <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
-                    Web site design
+                  <div data-aos="zoom-in" data-aos-duration="1000"
+                    class="mt-[38px] w-full lg:w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
+                    <div
+                      class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
+                      Helwan University
+                    </div>
+                    <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
+                      Bachelor Degree
+                    </div>
+                    <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
+                    <p class="font-normal text-white text-base leading-[22.4px]">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
+                      laborum maiores mollitia, optio quam quis rerum totam voluptas.
+                    </p>
                   </div>
-                  <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
-                  <p class="font-normal text-white text-base leading-[22.4px]">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
-                    laborum maiores mollitia, optio quam quis rerum totam voluptas.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Junior Web Designer -->
-              <div class="relative ml-[39px] mt-[73px]">
-                <div
-                  class="absolute w-[23px] h-[23px] -left-[39px] bg-gradient-to-b from-[#f5bd4d] to-[#f89222] rounded-full">
-                </div>
-                <div
-                  class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
-                  <span class="font-bold text-sm leading-[14px] text-white">2012-2016</span>
-                </div>
-                <div
-                  class="mt-[38px] w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
-                  <div
-                    class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
-                    Junior Web designers
-                  </div>
-                  <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
-                    Product designer
-                  </div>
-                  <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
-                  <p class="font-normal text-white text-base leading-[22.4px]">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
-                    laborum maiores mollitia, optio quam quis rerum totam voluptas.
-                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+
+            <!-- Work History -->
+            <div class="mt-[80px] relative">
+              <div class="flex items-center">
+                <img class="w-8 h-8" alt="Work history icon" src="public/frame-8632.svg">
+                <h3 class="ml-4 font-bold text-white text-2xl leading-6">Work History</h3>
+              </div>
+
+              <div class="relative mt-4 ml-0">
+                <div class="absolute z-0 rounded-full w-2 h-[555px] left-[7px] border-2 border-solid border-[#646464]">
+                </div>
+
+                <!-- UI/UX Design -->
+                <div  class="relative ml-[39px]">
+                  <div class="absolute inset-0 z-10 w-[23px] h-[23px] -left-[39px]">
+                    <img src="public/rectangle-1114.svg" alt="">
+                  </div>
+                  <div
+                    class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
+                    <span class="font-bold text-sm leading-[14px] text-white">2016-2022</span>
+                  </div>
+                  <div data-aos="zoom-out" data-aos-duration="1000"
+                    class="mt-[38px] w-full lg:w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
+                    <div
+                      class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
+                      UI/UX design
+                    </div>
+                    <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
+                      Web site design
+                    </div>
+                    <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
+                    <p class="font-normal text-white text-base leading-[22.4px]">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
+                      laborum maiores mollitia, optio quam quis rerum totam voluptas.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Junior Web Designer -->
+                <div class="relative ml-[39px] mt-[73px]">
+                  <div class="absolute inset-0 z-10 w-[23px] h-[23px] -left-[39px]">
+                    <img src="public/rectangle-1114.svg" alt="">
+                  </div>
+                  <div
+                    class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
+                    <span class="font-bold text-sm leading-[14px] text-white">2012-2016</span>
+                  </div>
+                  <div data-aos="zoom-out" data-aos-duration="1000"
+                    class="mt-[38px] w-full lg:w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
+                    <div
+                      class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
+                      Junior Web designers
+                    </div>
+                    <div class="mt-2 font-normal text-[#8f8f8f] text-xs leading-3">
+                      Product designer
+                    </div>
+                    <div class="w-full h-px bg-[#ffffff1a] my-[27px]"></div>
+                    <p class="font-normal text-white text-base leading-[22.4px]">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum,
+                      laborum maiores mollitia, optio quam quis rerum totam voluptas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
 
         <!-- Skills section -->
-        <section id="skills" class="absolute mt-[280px] w-[686px] h-[483px] top-[1996px] left-[508px]">
-          <h2 class="font-bold text-white text-5xl leading-[48px]">Skills</h2>
+        <section id="skills" class="absolute pr-5 lg:pr-0 mt-[280px] w-full lg:w-[686px] top-[3100px] lg:top-[1996px] left-4 lg:left-[508px]">
+          <h2 class="font-bold text-white text-3xl lg:text-5xl leading-[48px]">Skills</h2>
 
           <div class="mt-[80px] space-y-[40px]">
             <!-- UI/UX Design -->
-            <div class="w-full">
+            <div data-aos="fade-left" data-aos-duration="500" class="w-full">
               <div class="flex justify-between items-center">
                 <span class="font-medium text-[#e3e3e3] text-2xl leading-[28.8px]">UI/UX Design</span>
                 <span
@@ -300,7 +313,7 @@
             </div>
 
             <!-- Photography -->
-            <div class="w-full">
+            <div data-aos="fade-right" data-aos-duration="500" class="w-full">
               <div class="flex justify-between items-center">
                 <span class="font-medium text-[#e3e3e3] text-2xl leading-[28.8px]">Photography</span>
                 <span
@@ -313,7 +326,7 @@
             </div>
 
             <!-- Creativity -->
-            <div class="w-full">
+            <div data-aos="fade-left" data-aos-duration="500" class="w-full">
               <div class="flex justify-between items-center">
                 <span class="font-medium text-[#e3e3e3] text-2xl leading-[28.8px]">Creativity</span>
                 <span
@@ -326,7 +339,7 @@
             </div>
 
             <!-- Team Work -->
-            <div class="w-full">
+            <div data-aos="fade-right" data-aos-duration="500" class="w-full">
               <div class="flex justify-between items-center">
                 <span class="font-medium text-[#e3e3e3] text-2xl leading-[28.8px]">Team Work</span>
                 <span
@@ -339,7 +352,7 @@
             </div>
 
             <!-- Web Design -->
-            <div class="w-full">
+            <div data-aos="fade-left" data-aos-duration="500" class="w-full">
               <div class="flex justify-between items-center">
                 <span class="font-medium text-[#e3e3e3] text-2xl leading-[28.8px]">Web Design</span>
                 <span
@@ -354,23 +367,23 @@
         </section>
 
         <!-- Portfolio section -->
-        <section id="portfolio" class="absolute mt-[480px] w-[688px] top-[2487px] left-[508px]">
-          <h2 class="font-bold text-white text-5xl leading-[48px] mb-[40px]">Portfolio</h2>
+        <section id="portfolio" class="absolute pr-6 lg:pr-0 mt-[480px] w-full lg:w-[688px] top-[3540px] lg:top-[2487px] left-4 lg:left-[508px]">
+          <h2 class="font-bold text-white text-3xl lg:text-5xl leading-[48px] mb-[40px]">Portfolio</h2>
 
           <!-- Portfolio filter -->
           <div
-            class="w-full h-[60px] bg-black rounded-md shadow-[0px_0px_25px_10px_#ffffff0f] flex justify-between items-center px-6">
-            <button class="text-gradient font-bold text-base leading-4">All</button>
-            <button class="text-white font-bold text-base leading-4">Graphic Design</button>
-            <button class="text-white font-bold text-base leading-4">Mobile App</button>
-            <button class="text-white font-bold text-base leading-4">Photography</button>
-            <button class="text-white font-bold text-base leading-4">UI/UX Design</button>
+            class="w-full gap-2 h-[60px] bg-black rounded-md shadow-[0px_0px_25px_10px_#ffffff0f] flex justify-between items-center px-6">
+            <button class="lg:text-gradient text-white border lg:border-none rounded-xl px-1 py-3 lg:font-bold font-light lg:text-base text-xs leading-4">All</button>
+            <button class="text-white border lg:border-none rounded-xl px-1 py-1 lg:font-bold font-light lg:text-base text-xs leading-4">Graphic Design</button>
+            <button class="text-white border lg:border-none rounded-xl px-1 py-1 lg:font-bold font-light lg:text-base text-xs leading-4">Mobile App</button>
+            <button class="text-white border lg:border-none rounded-xl px-1 py-3 lg:font-bold font-light lg:text-base text-xs leading-4">Photography</button>
+            <button class="text-white border lg:border-none rounded-xl px-1 py-1 lg:font-bold font-light lg:text-base text-xs leading-4">UI/UX Design</button>
           </div>
 
           <!-- Portfolio grid -->
-          <div class="mt-[24px] grid grid-cols-2 gap-6">
+          <div class="mt-[24px] grid grid-cols-1 lg:grid-cols-2 gap-6">
             <!-- Portfolio item 1 -->
-            <div class=" relative w-[332px] h-[321px]">
+            <div data-aos="fade-down-right" data-aos-duration="1000" class="relative w-full lg:w-[332px] h-[321px]">
               <img src="public/rectangle-12660.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -384,7 +397,7 @@
             </div>
 
             <!-- Portfolio item 2 -->
-            <div class="relative w-[332px] h-[248px]">
+            <div data-aos="fade-down-left" data-aos-duration="1000" class="relative w-full lg:w-[332px] h-[248px]">
               <img src="public/rectangle-12663.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -397,7 +410,7 @@
               </div>
             </div>
             <!-- Portfolio item 3 -->
-            <div class="relative w-[332px] h-[447px]">
+            <div data-aos="fade-up-right" data-aos-duration="1000" class="relative w-full lg:w-[332px] h-[447px]">
               <img src="public/rectangle-12662.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -410,10 +423,9 @@
               </div>
             </div>
 
-
             <!-- Portfolio items 4 & 5 -->
             <div class="flex flex-col gap-6">
-              <div class="relative -top-[70px] w-[332px] h-[220px]">
+              <div data-aos="fade-up-left" data-aos-duration="1000" class="relative lg:-top-[70px] w-full lg:w-[332px] h-[220px]">
                 <img src="public/rectangle-12664.png" alt="Portfolio" class="w-full h-full object-cover">
                 <div
                   class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -425,7 +437,7 @@
                   <img src="public/group-2.png" alt="View" class="w-[11px] h-[11px]">
                 </div>
               </div>
-              <div class="relative -top-[70px] w-[332px] h-[220px]">
+              <div data-aos="fade-up-left" data-aos-duration="1000" class="relative lg:-top-[70px] w-full lg:w-[332px] h-[220px]">
                 <img src="public/rectangle-12665.png" alt="Portfolio" class="w-full h-full object-cover">
                 <div
                   class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -440,7 +452,7 @@
             </div>
 
             <!-- Portfolio items 6 & 7 -->
-            <div class="relative -top-[13px] w-[332px] h-[204px]">
+            <div data-aos="fade-up-right" data-aos-duration="1000" class="relative lg:-top-[13px] w-full lg:w-[332px] h-[204px]">
               <img src="public/rectangle-12667.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -453,7 +465,7 @@
               </div>
             </div>
 
-            <div class="relative -top-[70px] w-[332px] h-[260px]">
+            <div data-aos="fade-down-right" data-aos-duration="1000" class="relative lg:-top-[70px] w-full lg:w-[332px] h-[260px]">
               <img src="public/rectangle-12666.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -469,12 +481,12 @@
         </section>
 
         <!-- Blog section -->
-        <section id="blog" class="absolute mt-[400px] w-[688px] top-[3890px] left-[508px]">
-          <h2 class="font-bold text-white text-5xl leading-[48px]  mb-[52px]">Blog</h2>
+        <section id="blog" class="absolute pr-6 lg:pr-0 mt-[400px] w-full lg:w-[688px] top-[5980px] lg:top-[3890px] left-4 lg:left-[508px]">
+          <h2 class="font-bold text-white text-3xl lg:text-5xl leading-[48px] mb-[52px]">Blog</h2>
 
-          <div class="grid grid-cols-2 gap-x-6 gap-y-10">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-10">
             <!-- Blog post 1 -->
-            <div class="w-[332px] bg-transparent overflow-hidden">
+            <div data-aos="fade-down-right" data-aos-duration="1000" class="w-full lg:w-[332px] bg-transparent overflow-hidden">
               <img class="w-full h-[320px] object-cover" src="public/rectangle-12660-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -495,7 +507,7 @@
             </div>
 
             <!-- Blog post 2 -->
-            <div class="w-[332px] bg-transparent overflow-hidden">
+            <div data-aos="fade-down-left" data-aos-duration="1000" class="w-full lg:w-[332px] bg-transparent overflow-hidden">
               <img class="w-full h-auto object-cover" src="public/rectangle-12663-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -515,7 +527,7 @@
               </div>
             </div>
             <!-- Blog post 3 -->
-            <div class="w-[332px] bg-transparent overflow-hidden">
+            <div data-aos="fade-down-right" data-aos-duration="1000" class="w-full lg:w-[332px] bg-transparent overflow-hidden">
               <img class="w-full h-[320px] object-cover" src="public/rectangle-12662-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -536,7 +548,7 @@
             </div>
 
             <!-- Blog post 4 -->
-            <div class="w-[332px] relative -top-[60px] bg-transparent overflow-hidden">
+            <div data-aos="fade-up-left" data-aos-duration="1000" class="w-full lg:w-[332px] relative lg:-top-[60px] bg-transparent overflow-hidden">
               <img class="w-full h-auto object-cover" src="public/rectangle-12664-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -557,7 +569,7 @@
             </div>
 
             <!-- Blog post 5 -->
-            <div class="w-[332px] bg-transparent overflow-hidden">
+            <div data-aos="fade-up-right" data-aos-duration="1000" class="w-full lg:w-[332px] bg-transparent overflow-hidden">
               <img class="w-full h-auto object-cover" src="public/rectangle-12667-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -578,7 +590,7 @@
             </div>
 
             <!-- Blog post 6 -->
-            <div class="w-[332px] relative -top-[140px] bg-transparent overflow-hidden">
+            <div data-aos="fade-down-left" data-aos-duration="1000" class="w-full lg:w-[332px] relative lg:-top-[140px] bg-transparent overflow-hidden">
               <img class="w-full h-auto object-cover" src="public/rectangle-12665-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -602,12 +614,12 @@
         </section>
 
         <!-- Newsletter section -->
-        <section id="newsletter" class="absolute mt-[400px] w-[688px] top-[5780px] left-[508px]">
-          <h2 class="font-bold text-white mb-[30px] text-5xl leading-[48px]">Pricing</h2>
-          <div class="container mx-auto ">
-            <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-6 px-4 md:px-0">
+        <section id="newsletter" class="absolute pr-5 lg:pr-0 mt-[400px] w-full lg:w-[688px] top-[9500px] lg:top-[5780px] left-4 lg:left-[508px]">
+          <h2 class="font-bold text-white text-3xl pb-16 lg:text-5xl leading-[48px]">Pricing</h2>
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 lg:px-0">
               <!-- Pricing Card 1 -->
-              <div class="bg-black p text-white rounded-lg shadow-lg">
+              <div class="bg-black text-white rounded-lg shadow-lg">
                 <div class="pt-6">
                   <span
                     class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-r-[50px] rounded-l-none bg-gradient-to-r from-[rgba(245,189,77,0.30)] to-[rgba(248,146,34,0.30)]">Intro</span>
@@ -633,7 +645,7 @@
               </div>
 
               <!-- Pricing Card 2 -->
-              <div class="bg-black p text-white rounded-lg shadow-lg">
+              <div class="bg-black text-white rounded-lg shadow-lg">
                 <div class="pt-6">
                   <span
                     class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-r-[50px] rounded-l-none bg-gradient-to-r from-[rgba(245,189,77,0.30)] to-[rgba(248,146,34,0.30)]">Base</span>
@@ -653,12 +665,13 @@
                       <li class="line-through text-gray-500">Speedy web</li>
                     </ul>
                   </div>
-                  <button class="rounded-lg mt-6 bg-gradient-to-r from-[#F5BD4D] to-[#F89222] py-3 px-6">Get
+                  <button
+                    class="rounded-lg mt-6 border border-[#F5BD4D] bg-gradient-to-r from-[#F5BD4D] to-[#F89222] bg-clip-text text-transparent text-base font-bold py-3 px-6">Get
                     Started</button>
                 </div>
               </div>
               <!-- Pricing Card 3 -->
-              <div class="bg-black p text-white rounded-lg shadow-lg">
+              <div class="bg-black text-white rounded-lg shadow-lg">
                 <div class="pt-6">
                   <span
                     class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-r-[50px] rounded-l-none bg-gradient-to-r from-[rgba(245,189,77,0.30)] to-[rgba(248,146,34,0.30)]">Popular</span>
@@ -684,7 +697,7 @@
               </div>
 
               <!-- Pricing Card 4 -->
-              <div class="bg-black p text-white rounded-lg shadow-lg">
+              <div class="bg-black text-white rounded-lg shadow-lg">
                 <div class="pt-6">
                   <span
                     class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-r-[50px] rounded-l-none bg-gradient-to-r from-[rgba(245,189,77,0.30)] to-[rgba(248,146,34,0.30)]">Enterprise</span>
@@ -713,10 +726,11 @@
         </section>
 
         <!-- Contact section -->
-        <section id="contact" class="absolute mt-[400px] pb-[100px] w-[688px] top-[7180px] left-[508px]">
-          <h2 class="font-bold text-white text-5xl leading-[48px]">Contact</h2>
+        <section id="contact"
+          class="absolute mt-[400px] pb-[100px] pr-5 lg:pr-0 w-full lg:w-[688px] top-[12180px] lg:top-[7180px] left-4 lg:left-[508px]">
+          <h2 class="font-bold text-white text-3xl lg:text-5xl leading-[48px]">Contact</h2>
           <form class="mt-[65px]">
-            <div class="grid grid-cols-2 gap-x-[23px] gap-y-[40px]">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-[23px] gap-y-[40px]">
               <div>
                 <label class="font-medium text-white text-xl leading-8 block mb-[10px]">
                   First name*

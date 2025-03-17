@@ -75,3 +75,15 @@ section {
   from, to { border-color: transparent; }
   50% { border-color: orange; }
 }
+
+
+@media screen and (max-width: 768px) {
+  .typewriter {
+    font-size: 1.5em; /* Adjust as needed */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  
+}
