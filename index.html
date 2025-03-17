@@ -7,6 +7,7 @@
   <title>Daryl Smith</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="./Styles/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -19,9 +20,9 @@
       <div class="w-[1320px] mx-auto bg-[#161a1a] shadow-[0px_10px_25px_#ffffff17] relative">
         <!-- Header -->
         <header class="h-[106px] flex items-center border-b border-[#ffffff33]">
-          <div class="flex flex-col bg-[] ml-[94px]">
-            <img class="h-[30px]" alt="Daryl smith" src="public/daryl-smith.svg">
-            <div class=" font-normal text-[#c2c2c2] mt-1 text-lg leading-[18px]">
+          <div data-aos="fade-right" class="flex flex-col ml-[94px]">
+            <img data-aos="zoom-in-down" data-aos-duration="1500" class="h-[30px]" alt="Daryl smith" src="public/daryl-smith.svg">
+            <div class="typewriter font-normal text-[#c2c2c2] mt-1 text-lg leading-[18px]">
               UI/UX designer
             </div>
           </div>
@@ -32,7 +33,7 @@
               class="w-10 h-10 ml-10 rounded-md bg-gradient-to-b from-[#f5bd4d] to-[#f89222] flex items-center justify-center">
               <i data-lucide="home" class="w-6 h-6 text-white"></i>
             </div>
-            <span class="ml-4 text-2xl leading-6 font-bold text-white">Home</span>
+            <span data-aos="fade-left" class="ml-4 text-2xl leading-6 font-bold text-white">Home</span>
           </div>
 
           <button class="ml-auto mr-[20px] px-6 py-3 rounded-[50px] hover:opacity-90 transition-opacity">
@@ -45,7 +46,7 @@
 
         <!-- Side profile -->
         <div class="absolute w-[368px] bg-[#000000] h-[531px] top-[106px] left-[92px]">
-          <img class="absolute top-14 h-full  bg-object-cover" alt="Profile" src="public/profileImg.png">
+          <img data-aos="zoom-in" data-aos-duration="1500" class="absolute top-14 h-full  bg-object-cover" alt="Profile" src="public/profileImg.png">
 
           <!-- Social media links -->
           <div
@@ -154,8 +155,8 @@
           <!-- Education -->
           <div class="mt-[89px] relative">
             <div class="flex items-center">
-              <img class="w-8 h-8" alt="Education icon" src="public/frame-8630.svg">
-              <h3 class="ml-4 font-bold text-white text-2xl leading-6">Education</h3>
+              <img data-aos="fade-right" data-aos-duration="1000" class="w-8 h-8" alt="Education icon" src="public/frame-8630.svg">
+              <h3 data-aos="fade-left" data-aos-duration="1000" class="ml-4 font-bold text-white text-2xl leading-6">Education</h3>
             </div>
 
             <div class="relative mt-4 ml-0">
@@ -170,7 +171,7 @@
                   class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
                   <span class="font-bold text-sm leading-[14px] text-white">2016-2020</span>
                 </div>
-                <div
+                <div data-aos="zoom-in" data-aos-duration="1000"
                   class="mt-[38px] w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
                   <div
                     class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
@@ -196,7 +197,7 @@
                   class="inline-flex items-center justify-center p-1.5 rounded border border-solid border-[#ffffff33]">
                   <span class="font-bold text-sm leading-[14px] text-white">2014-2016</span>
                 </div>
-                <div
+                <div data-aos="zoom-in" data-aos-duration="1000"
                   class="mt-[38px] w-[646px] bg-[#121414] rounded-lg border border-solid border-[#ffffff1a] p-[19px]">
                   <div
                     class="bg-gradient-to-b from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent font-bold text-lg leading-[18px]">
@@ -412,7 +413,7 @@
 
             <!-- Portfolio items 4 & 5 -->
             <div class="flex flex-col gap-6">
-              <div class="relative w-[332px] h-[220px]">
+              <div class="relative -top-[70px] w-[332px] h-[220px]">
                 <img src="public/rectangle-12664.png" alt="Portfolio" class="w-full h-full object-cover">
                 <div
                   class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -424,7 +425,7 @@
                   <img src="public/group-2.png" alt="View" class="w-[11px] h-[11px]">
                 </div>
               </div>
-              <div class="relative w-[332px] h-[220px]">
+              <div class="relative -top-[70px] w-[332px] h-[220px]">
                 <img src="public/rectangle-12665.png" alt="Portfolio" class="w-full h-full object-cover">
                 <div
                   class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -439,7 +440,7 @@
             </div>
 
             <!-- Portfolio items 6 & 7 -->
-            <div class="relative w-[332px] h-[204px]">
+            <div class="relative -top-[13px] w-[332px] h-[204px]">
               <img src="public/rectangle-12667.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -452,7 +453,7 @@
               </div>
             </div>
 
-            <div class="relative w-[332px] h-[260px]">
+            <div class="relative -top-[70px] w-[332px] h-[260px]">
               <img src="public/rectangle-12666.png" alt="Portfolio" class="w-full h-full object-cover">
               <div
                 class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center opacity-0 hover:opacity-50 transition-opacity">
@@ -468,13 +469,13 @@
         </section>
 
         <!-- Blog section -->
-        <section id="blog" class="absolute mt-[400px] w-[688px] top-[3990px] left-[508px]">
+        <section id="blog" class="absolute mt-[400px] w-[688px] top-[3890px] left-[508px]">
           <h2 class="font-bold text-white text-5xl leading-[48px]  mb-[52px]">Blog</h2>
 
           <div class="grid grid-cols-2 gap-x-6 gap-y-10">
             <!-- Blog post 1 -->
             <div class="w-[332px] bg-transparent overflow-hidden">
-              <img class="w-full h-auto object-cover" src="public/rectangle-12660-1.png" alt="Blog post">
+              <img class="w-full h-[320px] object-cover" src="public/rectangle-12660-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
                   Photography&nbsp;&nbsp;|&nbsp;&nbsp;28 Apr 2022
@@ -513,9 +514,29 @@
                 </div>
               </div>
             </div>
-
             <!-- Blog post 3 -->
             <div class="w-[332px] bg-transparent overflow-hidden">
+              <img class="w-full h-[320px] object-cover" src="public/rectangle-12662-1.png" alt="Blog post">
+              <div class="p-6 bg-black">
+                <div class="font-normal text-neutral-500 text-xs leading-3">
+                  Graphic design&nbsp;&nbsp;|&nbsp;&nbsp;28 Apr 2022
+                </div>
+                <h3 class="mt-[22px] font-bold text-white text-lg leading-[25.2px]">
+                  There are countless versions of lorem ipsum, the most famous.
+                </h3>
+                <p class="mt-[28px] font-normal text-[#979797] text-sm leading-[19.6px]">
+                  Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum has been...
+                </p>
+                <div class="mt-[28px] flex items-center justify-start gap-1.5">
+                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
+                  <span class="font-normal text-white text-sm leading-[18.2px]">Posted By Daryl Smith</span>
+                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog post 4 -->
+            <div class="w-[332px] relative -top-[60px] bg-transparent overflow-hidden">
               <img class="w-full h-auto object-cover" src="public/rectangle-12664-1.png" alt="Blog post">
               <div class="p-6 bg-black">
                 <div class="font-normal text-neutral-500 text-xs leading-3">
@@ -535,49 +556,7 @@
               </div>
             </div>
 
-            <!-- Blog post 4 -->
-            <div class="w-[332px] bg-transparent overflow-hidden">
-              <img class="w-full h-auto object-cover" src="public/rectangle-12662-1.png" alt="Blog post">
-              <div class="p-6 bg-black">
-                <div class="font-normal text-neutral-500 text-xs leading-3">
-                  Graphic design&nbsp;&nbsp;|&nbsp;&nbsp;28 Apr 2022
-                </div>
-                <h3 class="mt-[22px] font-bold text-white text-lg leading-[25.2px]">
-                  There are countless versions of lorem ipsum, the most famous.
-                </h3>
-                <p class="mt-[28px] font-normal text-[#979797] text-sm leading-[19.6px]">
-                  Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum has been...
-                </p>
-                <div class="mt-[28px] flex items-center justify-start gap-1.5">
-                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
-                  <span class="font-normal text-white text-sm leading-[18.2px]">Posted By Daryl Smith</span>
-                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
-                </div>
-              </div>
-            </div>
-
             <!-- Blog post 5 -->
-            <div class="w-[332px] bg-transparent overflow-hidden">
-              <img class="w-full h-auto object-cover" src="public/rectangle-12665-1.png" alt="Blog post">
-              <div class="p-6 bg-black">
-                <div class="font-normal text-neutral-500 text-xs leading-3">
-                  Travel&nbsp;&nbsp;|&nbsp;&nbsp;28 Apr 2022
-                </div>
-                <h3 class="mt-[22px] font-bold text-white text-lg leading-[25.2px]">
-                  Party Jokes Startling But Unnecessary
-                </h3>
-                <p class="mt-[28px] font-normal text-[#979797] text-sm leading-[19.6px]">
-                  Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum has been...
-                </p>
-                <div class="mt-[28px] flex items-center justify-start gap-1.5">
-                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
-                  <span class="font-normal text-white text-sm leading-[18.2px]">Posted By Daryl Smith</span>
-                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
-                </div>
-              </div>
-            </div>
-
-            <!-- Blog post 6 -->
             <div class="w-[332px] bg-transparent overflow-hidden">
               <img class="w-full h-auto object-cover" src="public/rectangle-12667-1.png" alt="Blog post">
               <div class="p-6 bg-black">
@@ -597,6 +576,28 @@
                 </div>
               </div>
             </div>
+
+            <!-- Blog post 6 -->
+            <div class="w-[332px] relative -top-[140px] bg-transparent overflow-hidden">
+              <img class="w-full h-auto object-cover" src="public/rectangle-12665-1.png" alt="Blog post">
+              <div class="p-6 bg-black">
+                <div class="font-normal text-neutral-500 text-xs leading-3">
+                  Travel&nbsp;&nbsp;|&nbsp;&nbsp;28 Apr 2022
+                </div>
+                <h3 class="mt-[22px] font-bold text-white text-lg leading-[25.2px]">
+                  Party Jokes Startling But Unnecessary
+                </h3>
+                <p class="mt-[28px] font-normal text-[#979797] text-sm leading-[19.6px]">
+                  Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum has been...
+                </p>
+                <div class="mt-[28px] flex items-center justify-start gap-1.5">
+                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
+                  <span class="font-normal text-white text-sm leading-[18.2px]">Posted By Daryl Smith</span>
+                  <img class="w-4 h-px" alt="Line" src="public/line-120.svg">
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
 
@@ -762,7 +763,10 @@
       </div>
     </div>
   </div>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     lucide.createIcons();
   </script>
